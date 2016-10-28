@@ -11,7 +11,7 @@
             var l = Math.min(1, (j + 1) / (screen.width / f)), m = Math.min(1, (h + 1) / (screen.height / e)), n = b(g[0], hue2[0], m), o = b(hue3[0], hue4[0], m), p = b(n, o, l);
             p[0] = Math.round(p[0]), p[1] = Math.round(p[1]), p[2] = Math.round(p[2]);
             if (h != 1) {
-                var q = a(p[0], p[1], p[2]), r = b(p, [0, 0, 0], .2), s = a(r[0], r[1], r[2]), t = $("<img />").attr("data-src", "holder.js/" + f + "x" + e + "?bg=" + q + "&fg=" + q + "font=Material+Icons&size=30&auto=true&text=&#xE7F2").css({ top: i + "px", left: k + "px" });
+                var q = a(p[0], p[1], p[2]), r = b(p, [0, 0, 0], .2), s = a(r[0], r[1], r[2]), t = $("<img />").attr("data-src", "holder.js/" + f + "x" + e + "?bg=" + q + "&fg=" + q + "font=Material+Icons&size=30&auto=true&text=&#xE7F2;").css({ top: i + "px", left: k + "px" });
                 $("#background").append(t);
             }
         }
