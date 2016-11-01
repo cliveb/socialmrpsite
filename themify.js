@@ -10,7 +10,7 @@
             var l = Math.min(1, (j + 1) / (screen.width / f)), m = Math.min(1, (h + 1) / (screen.height / e)), n = b(seed[0], g[0], m), o = b(g[1], g[2], m), p = b(n, o, l);
             p[0] = Math.round(p[0]), p[1] = Math.round(p[1]), p[2] = Math.round(p[2]);
             if (h != 1) {
-                var q = a(p[0], p[1], p[2]), r = b(p, [0, 0, 0], .2), s = a(r[0], r[1], r[2]), t = $("<img />").attr("data-src", "holder.js/" + f + "x" + e + "?bg=" + q + "&fg=" + q + "font=Material+Icons&size=30&auto=true&text=SocialMRP").css({ top: i + "px", left: k + "px" });
+                var q = a(p[0], p[1], p[2]), r = b(p, [0, 0, 0], .2), s = a(r[0], r[1], r[2]), t = $("<img />").attr("data-src", "holder.js/" + f + "x" + e + "?bg=" + q + "&fg=" + q + "font=Material+Icons&size=30&auto=true&text=&#xE7F2;\n").css({ top: i + "px", left: k + "px" });
                 $("#background").append(t);
             }
         }
