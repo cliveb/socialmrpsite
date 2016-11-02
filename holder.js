@@ -759,7 +759,7 @@ return /******/ (function(modules) { // webpackBootstrap
           theme.font = flags.font;
           if (!engineSettings.noFontFallback && el.nodeName.toLowerCase() === 'img' && App.setup.supportsCanvas && engineSettings.renderer === 'svg') {
               engineSettings = extend(engineSettings, {
-                  renderer: 'canvas'
+                  renderer: 'canvas', object: 'background'
               });
           }
       }
